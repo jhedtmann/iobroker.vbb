@@ -1,6 +1,6 @@
 {
     "common": {
-        "name": "iobroker-vbbadapter",
+        "name": "VBB",
         "version": "0.0.1",
         "news": {
             "0.0.1": {
@@ -30,16 +30,8 @@
             "zh-cn": "VBB"
         },
         "desc": {
-            "en": "Fahrplaninformationen für den Verkehrsverbund Berlin/Brandenburg (VBB)",
-            "de": "Fahrplaninformationen für den Verkehrsverbund Berlin/Brandenburg (VBB)",
-            "ru": "Fahrplaninformationen für den Verkehrsverbund Berlin / Brandenburg (VBB)",
-            "pt": "Fahrplaninformationen für den Verkehrsverbund Berlin / Brandenburg (VBB)",
-            "nl": "Fahrplaninformationen für den Verkehrsverbund Berlijn/Brandenburg (VBB)",
-            "fr": "Fahrplaninformationen für den Verkehrsverbund Berlin/Brandebourg (VBB)",
-            "it": "Fahrplaninformationen für den Verkehrsverbund Berlin/Brandenburg (VBB)",
-            "es": "Fahrplaninformationen für den Verkehrsverbund Berlín / Brandenburgo (VBB)",
-            "pl": "Fahrplaninformationen für den Verkehrsverbund Berlin/Brandenburgia (VBB)",
-            "zh-cn": "Fahrplaninformationen für den Verkehrsverbund Berlin/Brandenburg (VBB)"
+            "en": "Public transport schedule information for the Berlin/Brandenburg region",
+            "de": "Fahrplaninformationen für den Verkehrsverbund Berlin/Brandenburg (VBB)"
         },
         "authors": [
             "Jörg <joerg.hedtmann@geomarineconsult.com>"
@@ -47,7 +39,8 @@
         "keywords": [
             "VBB",
             "Fahrplan",
-            "ÖPNV"
+            "ÖPNV",
+            "Public Transport"
         ],
         "license": "MIT",
         "platform": "Javascript/Node.js",
