@@ -1,2 +1,2 @@
 # iobroker.vbb
-ioBroker adapter for public transport in the Berlin/Brandenburg region.
+ioBroker adapter for public transport schedules in the Berlin/Brandenburg region.
