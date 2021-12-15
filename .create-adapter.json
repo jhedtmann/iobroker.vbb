@@ -1,0 +1,45 @@
+{
+    "cli": true,
+    "target": "directory",
+    "adapterName": "iobroker-vbbadapter",
+    "title": "VBB",
+    "description": "Fahrplaninformationen für den Verkehrsverbund Berlin/Brandenburg (VBB)",
+    "keywords": [
+        "VBB",
+        "Fahrplan",
+        "ÖPNV"
+    ],
+    "contributors": [
+        "Jörg (DF3EI)"
+    ],
+    "expert": "no",
+    "features": [
+        "adapter"
+    ],
+    "adminFeatures": [],
+    "type": "alarm",
+    "startMode": "daemon",
+    "connectionType": "cloud",
+    "dataSource": "poll",
+    "connectionIndicator": "no",
+    "language": "TypeScript",
+    "adminReact": "no",
+    "tools": [
+        "ESLint"
+    ],
+    "releaseScript": "yes",
+    "devServer": "yes",
+    "devServerPort": 8081,
+    "indentation": "Space (4)",
+    "quotes": "single",
+    "es6class": "yes",
+    "authorName": "Jörg",
+    "authorGithub": "jhedtmann",
+    "authorEmail": "joerg.hedtmann@geomarineconsult.com",
+    "gitRemoteProtocol": "HTTPS",
+    "gitCommit": "no",
+    "defaultBranch": "main",
+    "license": "MIT License",
+    "dependabot": "no",
+    "creatorVersion": "2.0.1"
+}

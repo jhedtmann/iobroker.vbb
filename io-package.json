@@ -1,0 +1,78 @@
+{
+    "common": {
+        "name": "iobroker-vbbadapter",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "VBB",
+        "titleLang": {
+            "en": "VBB",
+            "de": "VBB",
+            "ru": "VBB",
+            "pt": "VBB",
+            "nl": "VBB",
+            "fr": "VBB",
+            "it": "VBB",
+            "es": "VBB",
+            "pl": "VBB",
+            "zh-cn": "VBB"
+        },
+        "desc": {
+            "en": "Fahrplaninformationen für den Verkehrsverbund Berlin/Brandenburg (VBB)",
+            "de": "Fahrplaninformationen für den Verkehrsverbund Berlin/Brandenburg (VBB)",
+            "ru": "Fahrplaninformationen für den Verkehrsverbund Berlin / Brandenburg (VBB)",
+            "pt": "Fahrplaninformationen für den Verkehrsverbund Berlin / Brandenburg (VBB)",
+            "nl": "Fahrplaninformationen für den Verkehrsverbund Berlijn/Brandenburg (VBB)",
+            "fr": "Fahrplaninformationen für den Verkehrsverbund Berlin/Brandebourg (VBB)",
+            "it": "Fahrplaninformationen für den Verkehrsverbund Berlin/Brandenburg (VBB)",
+            "es": "Fahrplaninformationen für den Verkehrsverbund Berlín / Brandenburgo (VBB)",
+            "pl": "Fahrplaninformationen für den Verkehrsverbund Berlin/Brandenburgia (VBB)",
+            "zh-cn": "Fahrplaninformationen für den Verkehrsverbund Berlin/Brandenburg (VBB)"
+        },
+        "authors": [
+            "Jörg <joerg.hedtmann@geomarineconsult.com>"
+        ],
+        "keywords": [
+            "VBB",
+            "Fahrplan",
+            "ÖPNV"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "build/main.js",
+        "icon": "iobroker-vbbadapter.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/jhedtmann/ioBroker.iobroker-vbbadapter/main/admin/iobroker-vbbadapter.png",
+        "readme": "https://github.com/jhedtmann/ioBroker.iobroker-vbbadapter/blob/main/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "alarm",
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=2.0.0"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
